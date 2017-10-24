@@ -20,6 +20,7 @@ public class FirstServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter pw = response.getWriter();
         pw.write("<h1> hello first servlet!</h1>");
+        pw.write("branch!");
 
     }
 }
